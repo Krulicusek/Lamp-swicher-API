@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lampka</title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+<body>
+    
+    <div class="container">
+        <form class="guzik" action="/lampka/on" method="GET">
+            <input class="btn btn-success" type="submit" value="ON" />
+        </form>
+   <p></p>
+        
+        <form class="guzik" action="/lampka/off" method="GET"> 
+            <input class ="btn btn-danger" type="submit" value="OFF" />
+        </form>
+    
+    </div>
+
+</body>
+<style>
+html,
+body {
+      height: 100%;
+      background-color: #333;
+      box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    }    
+   
+   
+    .btn{
+  width:  180px;
+  height: 180px;  
+  font-size: 40px;
+  line-height: 1.33;
+  border-radius: 150px;
+  }
+  .guzik{
+      margin:60px;
+  }
+  
+.container{
+position: fixed;
+
+top: 45%;
+
+left: 45%;
+
+-moz-transform: translateX(-50%) translateY(-50%);
+
+-webkit-transform: translateX(-50%) translateY(-50%);
+
+transform: translateX(-50%) translateY(-50%);
+
+margin: 20px;
+
+padding-top: 100px;
+padding-bottom: 100px;
+padding-right: 500px;
+padding-left: 500px;
+  
+}
+}
+    </style>
+
+</html>
