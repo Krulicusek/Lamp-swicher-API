@@ -1,2 +1,3 @@
 # Lamp-swicher-API
-Web Interface enabling u to turn lamp on and off.
+Web Interface with MQTT server. Allows to switch between 2 states by clicking appropriate buttons.
+
